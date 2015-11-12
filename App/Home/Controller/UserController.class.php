@@ -12,7 +12,7 @@ class UserController extends Controller {
    public function register(){
         if(IS_POST){
             $data = I('post.');
-            $this->ajaxReturn(D('User')->register($data['username'],$data['pwd'],$data['pwd_confirm']));
+            $this->ajaxReturn(D('User')->register($data));
         }else{
         $this->display();
         }
