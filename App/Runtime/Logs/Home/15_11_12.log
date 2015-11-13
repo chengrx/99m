@@ -1,629 +1,1598 @@
-[ 2015-11-12T22:14:38+08:00 ] ::1 /99m/index.php/Home/Index
+[ 2015-11-12T10:53:04+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
-INFO: [ app_init ] --END-- [ RunTime:0.039982s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018001s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.036659s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.036867s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048949s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.049118s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007000s ]
 
-[ 2015-11-12T22:17:42+08:00 ] ::1 /99m/index.php/Home/User/index
+[ 2015-11-12T10:53:25+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001171s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0340s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 12 行.
+SQL: SELECT * FROM `tp_user` WHERE ( uname='a' )  [ RunTime:0.0070s ]
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 19 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'pwd_confirm' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 51 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 52 行.
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('a','a','127.0.0.1','1447296805') [ RunTime:0.0000s ]
+
+[ 2015-11-12T10:56:29+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040461s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.040734s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001891s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002144s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002161s ]
-INFO: [ app_end ] --END-- [ RunTime:0.002412s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2015-11-12T22:17:45+08:00 ] ::1 /99m/index.php/Home/User/register.html
+[ 2015-11-12T11:24:11+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007413s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.007547s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000465s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000558s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000771s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
 
-[ 2015-11-12T22:42:30+08:00 ] ::1 /99m/
+[ 2015-11-12T11:24:24+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001948s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002182s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
-INFO: [ view_parse ] --START--
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001656s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.001910s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002156s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002537s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002524s ]
-INFO: [ app_end ] --END-- [ RunTime:0.002825s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: pwd_confirm D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 17 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 12 行.
+SQL: SELECT * FROM `tp_user` WHERE ( uname='r' )  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 19 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'pwd_confirm' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 51 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 52 行.
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('r','r','127.0.0.1','1447298664') [ RunTime:0.0000s ]
 
-[ 2015-11-12T22:42:34+08:00 ] ::1 /99m/
+[ 2015-11-12T11:30:20+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
-INFO: [ view_parse ] --START--
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000424s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.000543s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 12 行.
+SQL: SELECT * FROM `tp_user` WHERE ( uname='r' )  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 19 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'pwd_confirm' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 51 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 52 行.
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('r','r','127.0.0.1','1447299020') [ RunTime:0.0010s ]
 
-[ 2015-11-12T22:42:52+08:00 ] ::1 /99m/index.php/Home/User/index
+[ 2015-11-12T11:31:06+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001729s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009445s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.009579s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000713s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 12 行.
+SQL: SELECT * FROM `tp_user` WHERE ( uname='r' )  [ RunTime:0.0000s ]
 
-[ 2015-11-12T22:43:07+08:00 ] ::1 /99m/index.php/Home/User/register.html
+[ 2015-11-12T11:31:21+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002191s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002046s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000433s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020523s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.020761s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001360s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001564s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001977s ]
-INFO: [ app_end ] --END-- [ RunTime:0.002187s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0100s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 12 行.
+SQL: SELECT * FROM `tp_user` WHERE ( uname='r' )  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 19 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'pwd_confirm' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 51 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 52 行.
 
-[ 2015-11-12T22:44:55+08:00 ] ::1 /99m/index.php/Home/User/register.html
+[ 2015-11-12T11:32:07+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.1131s ]
-SQL: SELECT * FROM `tp_user` WHERE ( uname='a' )  [ RunTime:0.0238s ]
-SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('a','a','::1','1447339495') [ RunTime:0.0131s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 12 行.
+SQL: SELECT * FROM `tp_user` WHERE ( uname='b' )  [ RunTime:0.0010s ]
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 19 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'pwd_confirm' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 51 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 52 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 55 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 56 行.
 
-[ 2015-11-12T22:46:30+08:00 ] ::1 /99m/index.php/Home/User/register.html
+[ 2015-11-12T11:33:34+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0054s ]
-SQL: SELECT * FROM `tp_user` WHERE ( uname='weaa' )  [ RunTime:0.0004s ]
-SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('weaa','123456','::1','1447339590') [ RunTime:0.0004s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0060s ]
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 12 行.
+SQL: SELECT * FROM `tp_user` WHERE ( uname='c' )  [ RunTime:0.0000s ]
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 19 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'pwd_confirm' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 26 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 51 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 52 行.
+NOTIC: [2] Illegal string offset 'username' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 55 行.
+NOTIC: [2] Illegal string offset 'pwd' D:\wamp\www\99m\App\Home\Model\UserModel.class.php 第 56 行.
 
-[ 2015-11-12T22:49:42+08:00 ] ::1 /99m/index.php/Home/User/index
+[ 2015-11-12T11:34:17+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
-INFO: [ app_init ] --END-- [ RunTime:0.016372s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006067s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.006515s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039754s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.040133s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004872s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.005184s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006558s ]
-INFO: [ app_end ] --END-- [ RunTime:0.006937s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T22:49:50+08:00 ] ::1 /99m/index.php/Home/User/login.html
+[ 2015-11-12T11:41:04+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
-INFO: [ app_init ] --END-- [ RunTime:0.002959s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006026s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.006403s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0093s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+ERR: Think\Model:regsiter方法不存在！
 
-[ 2015-11-12T22:51:34+08:00 ] ::1 /99m/index.php/Home/User/login.html
+[ 2015-11-12T13:56:25+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.135007s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001600s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001697s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0170s ]
-SQL: SELECT * FROM `tp_user` WHERE ( uname='aaa' AND upwd = '123456' )  [ RunTime:0.0107s ]
-
-[ 2015-11-12T22:51:38+08:00 ] ::1 /99m/index.php/Home/User/register.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001170s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.046002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047002s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035184s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.035327s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.138008s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.139008s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.516030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.517030s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017272s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.017464s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022001s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003716s ]
-INFO: [ app_end ] --END-- [ RunTime:0.003859s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024001s ]
 
-[ 2015-11-12T22:51:50+08:00 ] ::1 /99m/index.php/Home/User/register.html
+[ 2015-11-12T13:57:27+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0057s ]
-SQL: SELECT * FROM `tp_user` WHERE ( uname='wuhanren' )  [ RunTime:0.0006s ]
-SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('wuhanren','123456','::1','1447339910') [ RunTime:0.0004s ]
-
-[ 2015-11-12T22:52:02+08:00 ] ::1 /99m/index.php/Home/User/index
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001588s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001795s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000343s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000614s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057230s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.057379s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001261s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001353s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001718s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001814s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
 
-[ 2015-11-12T22:52:10+08:00 ] ::1 /99m/index.php/Home/User/login.html
+[ 2015-11-12T14:08:30+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001448s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0059s ]
-SQL: SELECT * FROM `tp_user` WHERE ( uname='wuhanren' AND upwd = '123456' )  [ RunTime:0.0004s ]
-
-[ 2015-11-12T22:56:42+08:00 ] ::1 /99m/index.php/Home/User/register.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010829s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.010935s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001144s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001235s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T22:59:49+08:00 ] ::1 /99m/index.php/Home/User/index
+[ 2015-11-12T14:08:41+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003044s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.003274s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.3470s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='heihei' )  [ RunTime:0.0210s ]
+
+[ 2015-11-12T14:10:06+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019156s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.019317s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001217s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003106s ]
-INFO: [ app_end ] --END-- [ RunTime:0.003284s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T23:00:31+08:00 ] ::1 /99m/index.php/Home/User/register.html
+[ 2015-11-12T14:10:16+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001721s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0159s ]
-SQL: SELECT * FROM `tp_user` WHERE ( uname='guoren' )  [ RunTime:0.0004s ]
-SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('guoren','111111','::1','1447340431') [ RunTime:0.0004s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='heihei' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('heihei','123456','127.0.0.1','1447308616') [ RunTime:0.0580s ]
 
-[ 2015-11-12T23:00:51+08:00 ] ::1 /99m/index.php/Home/User/register.html
+[ 2015-11-12T14:11:19+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001983s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002790s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.003054s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000260s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021289s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.021529s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002172s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.002392s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002831s ]
-INFO: [ app_end ] --END-- [ RunTime:0.003042s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T23:01:26+08:00 ] ::1 /99m/index.php/Home/User/register.html
+[ 2015-11-12T14:11:40+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001462s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0049s ]
-SQL: SELECT * FROM `tp_user` WHERE ( uname='guorener' )  [ RunTime:0.0003s ]
-SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('guorener','111111','::1','1447340486') [ RunTime:0.0004s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='mayun' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('mayun','123456','127.0.0.1','1447308700') [ RunTime:0.0010s ]
 
-[ 2015-11-12T23:01:33+08:00 ] ::1 /99m/index.php/Home/User/index
+[ 2015-11-12T14:12:51+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011336s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.011464s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001277s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001396s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001475s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T23:02:49+08:00 ] ::1 /99m/index.php/Home/User/index
+[ 2015-11-12T14:13:07+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001114s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='fuck2' )  [ RunTime:0.0000s ]
+
+[ 2015-11-12T14:13:29+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012248s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.012398s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001355s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001577s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2015-11-12T23:02:57+08:00 ] ::1 /99m/index.php/Home/User/index.html
+[ 2015-11-12T14:13:51+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='bullshit' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('bullshit','abc123','127.0.0.1','1447308831') [ RunTime:0.0010s ]
+
+[ 2015-11-12T14:49:18+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011758s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.011854s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001151s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001232s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001532s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T23:05:35+08:00 ] ::1 /99m/index.php/Home/User/index
+[ 2015-11-12T14:49:46+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001630s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001778s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='can_shu' )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('can_shu','canshu123','127.0.0.1','1447310986') [ RunTime:0.0010s ]
+
+[ 2015-11-12T14:50:20+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014010s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.014226s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001761s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001907s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001783s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001921s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T23:05:49+08:00 ] ::1 /99m/index.php/Home/User/index.html
+[ 2015-11-12T14:50:24+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+
+[ 2015-11-12T14:50:35+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='tester' AND upwd = '123456' )  [ RunTime:0.0010s ]
+
+[ 2015-11-12T14:51:26+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010265s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.010362s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001536s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001666s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T23:06:02+08:00 ] ::1 /99m/index.php/Home/User/index.html
+[ 2015-11-12T14:52:57+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012025s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.012191s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001100s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001182s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001489s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001575s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2015-11-12T23:06:58+08:00 ] ::1 /99m/index.php/Home/User/index.html
+[ 2015-11-12T14:52:59+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011028s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.011133s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001275s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001366s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001388s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T23:07:06+08:00 ] ::1 /99m/index.php/Home/User/index
+[ 2015-11-12T14:53:09+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001483s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='zhuce' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('zhuce','123123','127.0.0.1','1447311189') [ RunTime:0.0010s ]
+
+[ 2015-11-12T14:57:47+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006001s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013819s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.013972s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001265s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001361s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001765s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001901s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T23:07:23+08:00 ] ::1 /99m/index.php/Home/User/login.html
+[ 2015-11-12T14:57:56+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001772s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0068s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='yutian' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('yutian','111111','127.0.0.1','1447311476') [ RunTime:0.0000s ]
 
-[ 2015-11-12T23:08:04+08:00 ] ::1 /99m/index.php/Home/User/index
+[ 2015-11-12T14:58:08+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002221s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='cutian' )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('cutian','111111','127.0.0.1','1447311488') [ RunTime:0.0010s ]
+
+[ 2015-11-12T14:58:11+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011166s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.011289s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001317s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001410s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001457s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T23:08:16+08:00 ] ::1 /99m/index.php/Home/User/login.html
+[ 2015-11-12T15:14:50+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001417s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001512s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0053s ]
-SQL: SELECT * FROM `tp_user` WHERE ( uname='guorener' AND upwd = '96e79218965eb72c92a549dd5a330112' )  [ RunTime:0.0004s ]
-
-[ 2015-11-12T23:10:17+08:00 ] ::1 /99m/index.php/Home/User/register.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002037s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011176s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.011347s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001766s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001921s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001874s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
-[ 2015-11-12T23:10:26+08:00 ] ::1 /99m/index.php/Home/User/register.html
+[ 2015-11-12T15:15:01+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001108s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0059s ]
-SQL: SELECT * FROM `tp_user` WHERE ( uname='hebei' )  [ RunTime:0.0003s ]
-SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('hebei','123123','::1','1447341026') [ RunTime:0.0003s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='halao' )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('halao','111111','127.0.0.1','1447312501') [ RunTime:0.0000s ]
 
-[ 2015-11-12T23:11:23+08:00 ] ::1 /99m/index.php/Home/User/register.html
+[ 2015-11-12T15:18:05+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='calao' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('calao','111111','127.0.0.1','1447312685') [ RunTime:0.0010s ]
+
+[ 2015-11-12T15:18:09+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012807s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.013277s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001163s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001257s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001527s ]
-INFO: [ app_end ] --END-- [ RunTime:0.001762s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
 
-[ 2015-11-12T23:11:35+08:00 ] ::1 /99m/index.php/Home/User/register.html
+[ 2015-11-12T15:18:17+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001331s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0053s ]
-SQL: SELECT * FROM `tp_user` WHERE ( uname='taiyuan' )  [ RunTime:0.0004s ]
-SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('taiyuan','e10adc3949ba59abbe56e057f20f883e','::1','1447341095') [ RunTime:0.0003s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='shibushi' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('shibushi','111111','127.0.0.1','1447312697') [ RunTime:0.0010s ]
 
-[ 2015-11-12T23:11:55+08:00 ] ::1 /99m/index.php/Home/User/index
+[ 2015-11-12T15:19:35+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
-INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016217s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.016372s ]
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
 INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001640s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.001749s ]
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
 INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001886s ]
-INFO: [ app_end ] --END-- [ RunTime:0.002036s ]
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
 
-[ 2015-11-12T23:12:09+08:00 ] ::1 /99m/index.php/Home/User/login.html
+[ 2015-11-12T15:20:44+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
 INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001601s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.001730s ]
-SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0050s ]
-SQL: SELECT * FROM `tp_user` WHERE ( uname='taiyuan' AND upwd = 'e10adc3949ba59abbe56e057f20f883e' )  [ RunTime:0.0003s ]
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='fannao' )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('fannao','111111','127.0.0.1','1447312844') [ RunTime:0.0000s ]
+
+[ 2015-11-12T15:21:47+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T15:22:04+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='wwwwwwww' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('wwwwwwww','111111','127.0.0.1','1447312924') [ RunTime:0.0000s ]
+
+[ 2015-11-12T15:22:14+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T15:22:21+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='tanke' )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('tanke','111111','127.0.0.1','1447312941') [ RunTime:0.0010s ]
+
+[ 2015-11-12T15:24:41+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T15:32:45+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Think\Controller:D方法不存在！
+
+[ 2015-11-12T15:37:18+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-12T15:37:26+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-12T15:37:53+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-12T15:37:55+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T15:38:48+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T15:38:50+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T15:39:02+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T15:39:09+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:index.php
+
+[ 2015-11-12T15:39:13+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-12T15:41:32+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-11-12T15:41:45+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T15:41:47+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-11-12T15:45:23+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T15:45:25+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-11-12T15:45:38+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='china' )  [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('china','123456','127.0.0.1','1447314338') [ RunTime:0.0010s ]
+
+[ 2015-11-12T15:47:58+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T15:48:16+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='nanjing' )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('nanjing','e10adc3949ba59abbe56e057f20f883e','127.0.0.1','1447314496') [ RunTime:0.0000s ]
+
+[ 2015-11-12T15:50:25+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-11-12T15:50:31+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-12T15:58:00+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-12T15:58:06+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='aaa' AND upwd = '202cb962ac59075b964b07152d234b70' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-12T15:58:37+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='aaa' AND upwd = '202cb962ac59075b964b07152d234b70' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-11-12T15:58:45+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='aaa' AND upwd = '202cb962ac59075b964b07152d234b70' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T16:01:11+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T16:01:58+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='nanjing' AND upwd = 'e10adc3949ba59abbe56e057f20f883e' )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T16:06:34+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='nanjing' AND upwd = 'e10adc3949ba59abbe56e057f20f883e' )  [ RunTime:0.0010s ]
+
+[ 2015-11-12T16:06:55+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='nanhe' AND upwd = '96e79218965eb72c92a549dd5a330112' )  [ RunTime:0.0000s ]
+
+[ 2015-11-12T16:13:21+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+
+[ 2015-11-12T16:19:00+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='aaa' AND upwd = '698d51a19d8a121ce581499d7b701668' )  [ RunTime:0.0000s ]
+
+[ 2015-11-12T16:20:35+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='aaa' AND upwd = '698d51a19d8a121ce581499d7b701668' )  [ RunTime:0.0010s ]
+
+[ 2015-11-12T16:21:45+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-12T16:22:14+08:00 ] 127.0.0.1 /99m/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T16:22:16+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined index: pwd D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+
+[ 2015-11-12T16:22:53+08:00 ] 127.0.0.1 /99m/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T16:23:53+08:00 ] 127.0.0.1 /99m/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 模板不存在:./App/Home/View/Index/index.html
+
+[ 2015-11-12T16:25:08+08:00 ] 127.0.0.1 /99m/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T16:25:16+08:00 ] 127.0.0.1 /99m/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T16:25:19+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined index: pwd D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+
+[ 2015-11-12T16:25:21+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-12T16:26:27+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined index: pwd D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+
+[ 2015-11-12T16:27:27+08:00 ] 127.0.0.1 /99m/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-11-12T16:27:28+08:00 ] 127.0.0.1 /99m/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-12T16:27:28+08:00 ] 127.0.0.1 /99m/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-11-12T16:27:28+08:00 ] 127.0.0.1 /99m/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T16:27:28+08:00 ] 127.0.0.1 /99m/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T16:27:28+08:00 ] 127.0.0.1 /99m/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-11-12T16:27:44+08:00 ] 127.0.0.1 /99m/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_user` WHERE ( uname='terter' )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_user` (`uname`,`upwd`,`ip`,`last_time`) VALUES ('terter','96e79218965eb72c92a549dd5a330112','127.0.0.1','1447316864') [ RunTime:0.0010s ]
+
+[ 2015-11-12T16:29:43+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined index: pwd D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+
+[ 2015-11-12T16:32:02+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined index: pwd D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+
+[ 2015-11-12T16:32:03+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined index: pwd D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+
+[ 2015-11-12T16:32:05+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined index: pwd D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+
+[ 2015-11-12T16:36:30+08:00 ] 127.0.0.1 /99m/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: username D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
+NOTIC: [8] Undefined index: pwd D:\wamp\www\99m\App\Home\Controller\UserController.class.php 第 27 行.
 

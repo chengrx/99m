@@ -5,7 +5,7 @@ use Think\Model;
 class UserModel extends Model{
     public function register($data){
              $info = array();
-             $pattern_user = "/^[a-zA-Z0-9]{4,20}$/";
+             $pattern_user = "/^[a-zA-Z-_]{4,20}$/";
              $pattern_pwd = "/^[a-zA-Z0-9]{6,13}$/";
 
             if(count($this->where("uname='{$data['username']}'")->select())>0){
@@ -28,7 +28,7 @@ class UserModel extends Model{
                 'info' => '密码输入不一致，请重新输入',
             );
               return $info;
-           }       
+           }
            if(!preg_match($pattern_pwd,$data['pwd'])){
                 $info = array(
                    'status' => 0,
@@ -43,16 +43,16 @@ class UserModel extends Model{
             );
                  return $info;         
             }
-               $data['pwd'] = md5($data['pwd']);//加密
+            $data['pwd'] = md5($data['pwd']); //加密
+
             //---数据入库--------------------------
            $data_arr['uname'] = $data['username'];
            $data_arr['upwd'] = $data['pwd'];
            $data_arr['ip'] = $_SERVER['REMOTE_ADDR'];
            $data_arr['last_time'] = time();
 
-           
             if(($this->add($data_arr))>0){ //var_dump(M('User')->add($data_arr)) 默认返回的是记录的主键值，因为主键值都不为0，只需>0,则添加记录成功
-                                              // M('User') 换成$this->  效率更高，
+               //return '恭喜注册成功';              // M('User') 换成$this->  效率更高，
                 $info = array(
                     'status'=>1,
                     'info'=>'恭喜注册成功',
@@ -66,7 +66,8 @@ class UserModel extends Model{
                 return $info;
             }
     }
-
+    
+    
     //--登录验证--------------------------------------
     public function login($username,$pwd){
         
@@ -87,8 +88,8 @@ class UserModel extends Model{
                 return $info;
               }
 
-            $pwd = md5($pwd);
-            $user_query = $this->where("uname='{$username}' AND upwd = '{$pwd}'")->select();
+            $pwd = md5($pwd); //加密
+            $user_query = $this->where("uname='{$username}' AND upwd = '{$pwd}'")->select(); //提交数据与数据库匹配
             if($user_query){
                  $info = array(
                     'status'=>1,

@@ -11,8 +11,11 @@ class UserController extends Controller {
     //===注册===============================
    public function register(){
         if(IS_POST){
-            $data = I('post.');
-            $this->ajaxReturn(D('User')->register($data));
+          $data = I('post.');
+            
+         // $this->ajaxReturn(D('User')->register($data['username'],$data['pwd'],$data['pwd_confirm']));
+          $this->ajaxReturn(D('User')->register($data));
+
         }else{
         $this->display();
         }
@@ -20,24 +23,22 @@ class UserController extends Controller {
 
     //====登录验证=======================
     public function login() {
-        if(IS_POST){
+       if(IS_POST){
         $data = I('post.');
-        $this->ajaxReturn(D('User')->login($data['username'],$data['pwd']));
-        }else{
-            $this->display();
-        }
+        $username = $data['username'];
+        $pwd = $data['pwd'];
+        $this->ajaxReturn(D('User')->login($username,$pwd)); 
+       
+    }else{
+       $this->display();
     }
+     
+    } 
+
     
     
     
     
     
-    
-    
-    
-    
-    
-    
-    
-}
+    }
 
