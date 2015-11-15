@@ -7,12 +7,14 @@
         <script src="__STATIC__/jquery-1.11.3.min.js"></script>
     </head>
     <body>
+        <include file="Public:userHeader"/>
         <p id="notice"></p>
         <form id="register_form" action="{:U('Home/User/register')}" method="post">
                 <p>用户名:&nbsp;<input type="text" id="username" name="username"/></p>
                 <p>密&nbsp;码:&nbsp;<input type="password" id="pwd" name="pwd"/></p>
                 <p>确认密码：<input type="password" id="pwd_confirm" name="pwd_confirm"/></p>
                 <input type="button" id="btn" value="提交注册"/>
+                <a href='login.html'>登录</a>
             </form>
         <script>
             $(function(){
@@ -35,6 +37,6 @@
         
         
         
-        
+        <include file="Public:userFooter"/>
     </body>
 </html>
