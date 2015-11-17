@@ -8,7 +8,7 @@ html,body,background {
     height:100px;
    background: url(../img/user/login_hdbg.jpg);
    background-repeat: repeat-x;
-    
+   overflow: hidden;
 }
 .login_header .header_c {
     width: 1000px;
@@ -37,6 +37,7 @@ html,body,background {
         width: 100%;
         height: 100px;
         background-color: lightcyan;
+        overflow: hidden;
     }
     .login_footer .footer_c {
         width:1000px;
