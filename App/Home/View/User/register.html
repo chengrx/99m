@@ -20,12 +20,14 @@
             $(function(){
                 $('#btn').click(function(){
                     var $uname = $('#username').val();
-                    var $pwd = $('#pwd').val();
+                    console.log($uname);
+                    var $upwd = $('#pwd').val();
+                    console.log($upwd);
                     var $pwd_confirm = $('#pwd_confirm').val();
                     var $action = $('#register_form').attr('action');
-                    $.post($action,{username:$uname, pwd:$pwd, pwd_confirm:$pwd_confirm},function(data){
-                        //console.log(data);
-                        $('#notice').html(data.info);
+                    $.post($action,{uname:$uname, upwd:$upwd, pwd_confirm:$pwd_confirm},function(data){
+                        console.log(data);
+                        //$('#notice').html(data.info);
                     });
                 });
             });

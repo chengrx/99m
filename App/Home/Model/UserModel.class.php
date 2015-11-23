@@ -3,11 +3,16 @@ namespace Home\Model;
 use Think\Model;
 
 class UserModel extends Model{
+    protected $_validate = array(
+        array('uname','/^[\w\d]{4,8}$/','用户名为4~8位的数字或英文！'),
+        array('upwd','/^[\w\d_]{6,13}$/','密码为6~13位的数字或字母、下划线！'),
+    );
+    
     public function register($data){
              $info = array();
-             $pattern_user = "/^[a-zA-Z-_]{4,20}$/";
-             $pattern_pwd = "/^[a-zA-Z0-9]{6,13}$/";
-
+          //  $pattern_user = "/^[a-zA-Z-_]{4,20}$/";
+            // $pattern_pwd = "/^[a-zA-Z0-9]{6,13}$/";
+/*
             if(count($this->where("uname='{$data['username']}'")->select())>0){
                  $info = array(
                 'status' => 0,
@@ -43,14 +48,40 @@ class UserModel extends Model{
             );
                  return $info;         
             }
-            $data['pwd'] = md5($data['pwd']); //加密
+ 
 
+            $data['pwd'] = md5($data['pwd']); //加密
+*/ 
             //---数据入库--------------------------
-           $data_arr['uname'] = $data['username'];
-           $data_arr['upwd'] = $data['pwd'];
+           $data_arr['uname'] = $data['uname'];
+           $data_arr['upwd'] = $data['upwd'];
            $data_arr['ip'] = $_SERVER['REMOTE_ADDR'];
            $data_arr['last_time'] = time();
-
+           
+            //$User = D("User"); // 实例化User对象
+            if (!$this->create($data_arr,1)){ // 指定新增数据
+                 // 如果创建失败 表示验证没有通过 输出错误提示信息
+                 exit($this->getError());
+            }else{
+                 // 验证通过 可以进行其他数据操作
+                if($this->add($data_arr)){
+                $info = array(
+                    'status'=>1,
+                    'info'=>'恭喜注册成功',
+                );
+                return $info;
+            }else{
+                $info = array(
+                    'status'=>0,
+                    'info'=>'注册失败',
+                );
+                return $info;
+            }
+           
+            }
+    }
+           
+/*
             if(($this->add($data_arr))>0){ //var_dump(M('User')->add($data_arr)) 默认返回的是记录的主键值，因为主键值都不为0，只需>0,则添加记录成功
                //return '恭喜注册成功';              // M('User') 换成$this->  效率更高，
                 $info = array(
@@ -66,7 +97,7 @@ class UserModel extends Model{
                 return $info;
             }
     }
-    
+    */
     
     //--登录验证--------------------------------------
     public function login($username,$pwd){

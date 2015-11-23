@@ -4,77 +4,7 @@
         <title>Login</title>
         <meta name="viewport" content="width=device-width">
         <script src="/99m/Public/static/jquery-1.11.3.min.js"></script>
-        <style type="text/css">
-            body,background,html {
-                padding: 0;
-                margin: 0;
-            }
-            .login_wrap {
-               width: 980px;
-               height:auto;
-               background: #fff;
-               border: 4px #efefef solid;
-               border-radius: 5px;
-               overflow: hidden;
-               padding-bottom: 10px;
-               position: relative;
-               margin:10px auto;
-            }
-
-            .login_wrap .login_wrapL {
-               float: left;
-               margin:10px 0;
-               width: 470px;
-               height: 430px;
-               //border: 1px solid red;
-            }
-            .login_wrap .login_wrapL .slide_box {
-                width: 468px;
-                height: 420px;
-                overflow: hidden;
-                position: relative;
-            }
-            .slide_box .bd {
-                position: relative;
-                height: 100%;
-            }
-             .login_wrap .login_wrapR {
-               float:right;
-               margin:10px 0;
-               width: 420px;
-               height: 430px;
-               //border: 1px solid black;
-               margin-right: 10px;
-               font: 16px/1.5 Arial,Verdana,"宋体";
-               line-height: 150%;
-            }
-            .login_wrap .login_wrapR span {
-                height: 24px;
-                font-weight: bold;
-                display: inline-block;
-                font-family: '微软雅黑';
-                font-size: 16px;
-                padding: 10px 0px 10px 10px;
-            }
-            .login_wrap .login_wrapR .login_box {
-                background: #fff;
-                //border: 1px solid red;
-                widows: 390px;
-                height: auto;
-                padding: 0;
-                border-top: 3px solid #333333;
-            }
-            .login_wrap .login_wrapR .login_box .username{
-                height: 25px;
-                width: 250px;
-                color: #ff3333;
-            }
-             .login_wrap .login_wrapR .login_box .userpwd {
-                height: 25px;
-                width: 250px;
-                color: #ff3333;
-            }
-        </style>
+         <link type='text/css' rel="stylesheet" src='/99m/Public/css/user.css'/>  
     </head>
     <body>
         <!DOCTYPE html>
@@ -106,7 +36,6 @@
                             <img src="/99m/Public/img/user/login_02.gif"/></li>
                            </li>
                        </ul>
-                    
                     </div>
                    <div class="hd">
                        <ul>
@@ -143,14 +72,8 @@
        <script>
             $(function(){
                 $('#toLogin').click(function(){
-                    //var username = $('#username').val();
-                    //var pwd = $('#pwd').val();
                     var action = $('.login').attr('action');
-                    //console.log(username);
-                    //console.log(pwd);
-                    //console.log(action);
                     var formatarr = $('.login').serialize();
-                   // console.log(formatarr);
                     $.post(action,formatarr,function(data){
                         console.log(data);
                         $('#login_info').html(data.info);
