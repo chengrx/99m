@@ -10,6 +10,7 @@ class UserModel extends Model{
         array('uname','require','该用户名已经存在，请换一个试试',0,'unique',1),
         
     );
+     
     */
     public function register($data){
            $info = array();
