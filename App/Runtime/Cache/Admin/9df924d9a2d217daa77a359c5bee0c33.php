@@ -4,21 +4,35 @@
         <title>后台管理系统</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" type="text/css" src='/99m/Public/static/bootstrap/css/bootstrap.css'/>
-        <link rel="stylesheet" type='text/css' src='/99m/Public/css/admin.css'/>
+        <link rel="stylesheet" type="text/css" href='/99m/Public/static/bootstrap/css/bootstrap.css'/>
+        <link rel="stylesheet" type='text/css' href='/99m/Public/css/admin.css'/>
     </head>
     <body>
+         <div class="container-fluid header">
     
-        <div class="container-fluid header">
-            <div class='row'>
-        顶部通栏
-            </div>
+           <div class='row'>
+      
+           </div>
+            
         </div>
     
-    左侧菜单栏
-    右侧内容区
+    <div class="container-fluid">
+        <div class="row">
+            <div class="pull-left col-md-3 left">
+                
+           <h4>菜单管理列表</h4>
+       
+            </div>
+            <div class="pull-right col-md-9 right">
+                  
+           <h4>后台首页欢迎您</h4>
+       
+            </div>
+        </div>
+      </div>
+            
     
-        <div class='container-fluid'>
+        <div class='container-fluid footer'>
         底部版权信息
          </div>
     </body>
