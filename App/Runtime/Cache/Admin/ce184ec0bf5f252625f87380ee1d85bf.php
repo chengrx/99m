@@ -21,17 +21,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <a class="navbar-brand" href="#">99M</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
+        <li class="active"><a href="./lists.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="http://www.xzlin.com">Products</a></li>
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
-            Dropdown 
+            Lists 
             <span class="caret"></span>
         </a>
           <ul class="dropdown-menu">
@@ -49,12 +49,12 @@
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button type="submit" class="btn btn-default">Search</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><a href="#">status</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">admin <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
@@ -88,8 +88,8 @@
             </div>
             <div class="pull-right col-md-9 right">
                   
-           <h4>后台首页欢迎您</h4>
-           <table class="table table-hover">
+           <h4>内容显示区</h4>
+           <table class="table table-striped table-hover">
                <thead>
                   <th>Uid</th>
                   <th>Uname</th>
@@ -99,14 +99,18 @@
                   <th>Operate</th>
                </thead>
                <tbody>
-                   <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                   </tr>
+               <?php if(is_array($User_list["lists"])): foreach($User_list["lists"] as $key=>$ul): ?><tr>
+                        <td><?php echo ($ul["id"]); ?></td>
+                        <td><?php echo ($ul["uname"]); ?></td>
+                        <td><?php echo ($ul["ip"]); ?></td>
+                        <td><?php echo (date("Y-m-d H:i:s",$ul["create_time"])); ?></td>
+                        <td><?php echo (date("Y-m-d H:i:s",$ul["last_time"])); ?></td>
+                        <td><a href="<?php echo U('User/edit',array('id'=>$ul['id']));?>">编辑</a>|<a href="<?php echo U('User/delete',array('id'=>$ul['id']));?>">删除</a></td>
+                   </tr><?php endforeach; endif; ?>
                </tbody>
+                <tfoot>
+                  <th colspan="6"><?php echo ($User_list["page"]); ?></th>
+                </tfoot>
            </table>
        
             </div>

@@ -30,10 +30,7 @@
         <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Link</a></li>
         <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
-            Dropdown 
-            <span class="caret"></span>
-        </a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
@@ -74,41 +71,14 @@
     <div class="container-fluid">
         <div class="row">
             <div class="pull-left col-md-3 left">
+                 
+                左侧功能栏
                 
-           <h4>菜单功能区</h4>
-            <div class="list-group">
-                <ul><a href="#" class="list-group-item active" >
-                  会员管理
-                    </a>
-                    <li style="list-style: none"><a href="#" class="list-group-item" >会员列表</a></li>
-                    <li style="list-style: none"><a href="#" class="list-group-item">新增会员</a></li>
-                </ul>
-             </div>
-       
             </div>
             <div class="pull-right col-md-9 right">
                   
-           <h4>后台首页欢迎您</h4>
-           <table class="table table-hover">
-               <thead>
-                  <th>Uid</th>
-                  <th>Uname</th>
-                  <th>IP</th>
-                  <th>Create-Time</th>
-                  <th>Last-Time</th>
-                  <th>Operate</th>
-               </thead>
-               <tbody>
-                   <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                   </tr>
-               </tbody>
-           </table>
-       
+                右侧内容区
+                  
             </div>
         </div>
       </div>

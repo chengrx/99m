@@ -1,7 +1,7 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class UserController extends Controller {
     public function index(){
     header("Location:lists");
     }
