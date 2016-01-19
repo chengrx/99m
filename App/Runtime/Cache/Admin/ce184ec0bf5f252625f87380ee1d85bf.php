@@ -27,8 +27,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./lists.html">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="http://www.xzlin.com">Products</a></li>
+        <li class="active"><a href="/Admin/User/index.html">会员 </a></li>
+        <li><a href="<?php echo U('Goods/lists');?>">商品</a></li>
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
             Lists 
@@ -80,8 +80,8 @@
                 <ul><a href="#" class="list-group-item active" >
                   会员管理
                     </a>
-                    <li style="list-style: none"><a href="#" class="list-group-item" >会员列表</a></li>
-                    <li style="list-style: none"><a href="#" class="list-group-item">新增会员</a></li>
+                    <li style="list-style: none"><a href="<?php echo U('User/lists');?>" class="list-group-item" >会员列表</a></li>
+                    <li style="list-style: none"><a href="<?php echo U('User/add');?>" class="list-group-item">新增会员</a></li>
                 </ul>
              </div>
        
