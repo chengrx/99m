@@ -13,7 +13,7 @@
                 <p>用户名：<input type="text" name="username" id="username"/></p>
                 <p>密 &nbsp;码：<input type="password" name="pwd" id="pwd"/></p>
                
-                <a href="<?php echo U('Home/User/register');?>">注册</a>
+                <a href="<?php echo U('Home/User/login');?>">注册</a>
             </form>
         </div>
         <script>
