@@ -44,14 +44,7 @@ class UserController extends Controller {
     public function add(){
         if(IS_POST){
         $data = I('post.');
-         $this->D('User')->addUser($data);
-         /*
-         if($user_add){
-               $this->success("添加成功",U('User/lists'));
-             }else{
-               $this->error("添加失败");
-               }
-          */
+         $this->ajaxReturn(D('User')->addUser($data));
         }else{
             $this->display();
         }

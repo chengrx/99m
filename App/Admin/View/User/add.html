@@ -4,21 +4,38 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+         <script src="__STATIC__/jquery-1.11.3.min.js"></script>
     </head>
     <body>
         <extend name="Public:base"/>
         <block name="right">
-            <form role="form" action="{:U('User/add')}" method='post'>
+            <form role="form" id="add_form" action="{:U('Admin/User/add')}" method="post">
                 <div class="form-group">
                     <label for='exampleInputEmail1'>用户名</label>
-                    <input name="uname" type="text" class="form-control" id="exampleInputEmail1" placeholder="y用户名" value=""/>
+                    <input name="uname" type="text" class="form-control" id="uname" placeholder="用户名" value=""/>
                 </div>
                 <div class="form-group">
                     <label for='exampleInputPassword1'>密码</label>
-                    <input name="upwd" type="password" class="form-control" id="exampleInputPassword1" placeholder="密码" value=""/>
+                    <input name="upwd" type="password" class="form-control" id="pwd" placeholder="密码" value=""/>
                 </div>
-                <button type="submit" class="btn btn-default">添加</button>
+                <button type="submit" id="to_add" class="btn btn-default">添加</button>
             </form>
         </block>
+        
+        <script>
+         $(function(){
+             $("#to_add").click(function(){
+                 var $uname = $("#uname").val();
+                 //console.log($uname);
+                 var $pwd = $("#pwd").val();
+                 //console.log($pwd);
+                  var $action = $('#add_form').attr('action');
+                    $.post($action,{uname:$uname, upwd:$upwd},function(data){
+                        console.log(data);
+                                    //$('#notice').html(data.info);
+                                });
+                         });
+                     });    
+        </script>
     </body>
 </html>

@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" type="text/css" href='/99m/Public/static/bootstrap/css/bootstrap.css'/>
         <link rel="stylesheet" type='text/css' href='/99m/Public/css/admin.css'/>
+        <script src="/99m/Public/static/jquery-1.11.3.min.js"></script>
     </head>
     <body>
          <div class="container-fluid header">
@@ -27,7 +28,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/Admin/User/index.html">会员 </a></li>
+        <li class="active"><a href="<?php echo U('User/lists');?>">会员 </a></li>
         <li><a href="<?php echo U('Goods/lists');?>">商品</a></li>
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">

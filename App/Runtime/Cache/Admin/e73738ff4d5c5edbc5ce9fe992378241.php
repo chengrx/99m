@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" type="text/css" href='/99m/Public/static/bootstrap/css/bootstrap.css'/>
         <link rel="stylesheet" type='text/css' href='/99m/Public/css/admin.css'/>
+        <script src="/99m/Public/static/jquery-1.11.3.min.js"></script>
     </head>
     <body>
          <div class="container-fluid header">
@@ -88,16 +89,16 @@
             </div>
             <div class="pull-right col-md-9 right">
                   
-            <form role="form" action="<?php echo U('User/add');?>" method='post'>
+            <form role="form" id="add_form" action="<?php echo U('Admin/User/add');?>" method="post">
                 <div class="form-group">
                     <label for='exampleInputEmail1'>用户名</label>
-                    <input name="uname" type="text" class="form-control" id="exampleInputEmail1" placeholder="y用户名" value=""/>
+                    <input name="uname" type="text" class="form-control" id="uname" placeholder="用户名" value=""/>
                 </div>
                 <div class="form-group">
                     <label for='exampleInputPassword1'>密码</label>
-                    <input name="upwd" type="password" class="form-control" id="exampleInputPassword1" placeholder="密码" value=""/>
+                    <input name="upwd" type="password" class="form-control" id="pwd" placeholder="密码" value=""/>
                 </div>
-                <button type="submit" class="btn btn-default">添加</button>
+                <button type="submit" id="to_add" class="btn btn-default">添加</button>
             </form>
         
             </div>

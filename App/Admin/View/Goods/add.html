@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Goods add</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+    <extend name="Public:base"/>
+   <block name="left">
+           <h4>菜单功能区</h4>
+            <div class="list-group">
+                <ul><a href="#" class="list-group-item active" >
+                  商品管理
+                    </a>
+                    <li style="list-style: none"><a href="{:U('Goods/lists')}" class="list-group-item" >商品列表</a></li>
+                    <li style="list-style: none"><a href="{:U('Goods/add')}" class="list-group-item">新增商品</a></li>
+                </ul>
+             </div>
+       </block>
+   <block name='right'>
+        <table class="table table-hover">
+            <form action="{:U('Goods/add')}" method="post">
+                <div class="form-group">
+                    <label for='exampleInputEmail'>商品名称</label>
+                    <input name='title' type='text' class="form-control" id='exampleInputEmail1' placeholder='' value=''>
+                </div>
+                <div class="form-group">
+                    <label for='exampleInputEmail'>商品价格</label>
+                    <input name='price' type='text' class="form-control" id='exampleInputEmail1' placeholder='' value=''>
+                </div>
+                <button type='submit' class='btn btn-default'>新增</button>
+            </form>
+        </table>
+    </block>
+    </body>
+</html>

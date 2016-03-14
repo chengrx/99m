@@ -89,32 +89,20 @@
             </div>
             <div class="pull-right col-md-9 right">
                   
-           <h4>商品记录展示区</h4>
-           <table class="table table-striped table-hover">
-               <thead>
-                  <th>id</th>
-                  <th>商品名称</th>
-                  <th>商品价格</th>
-                  <th>创建时间</th>
-                  <th>更新时间</th>
-                  <th>操作</th>
-               </thead>
-               
-               <tbody>
-               <?php if(is_array($goods_list)): foreach($goods_list as $key=>$gl): ?><tr>
-                        <td><?php echo ($gl["id"]); ?></td>
-                        <td><?php echo ($gl["title"]); ?></td>
-                        <td><?php echo ($gl["price"]); ?></td>
-                        <td><?php echo (date("Y-m-d H:i:s",$gl["create_time"])); ?></td>
-                        <td><?php echo (date("Y-m-d H:i:s",$gl["update_time"])); ?></td>
-                        <td><a href="<?php echo U('User/edit',array('id'=>$ul['id']));?>">编辑</a>|<a href="<?php echo U('User/delete',array('id'=>$ul['id']));?>">删除</a></td>
-                   </tr><?php endforeach; endif; ?>
-               </tbody>
-                <tfoot>
-                  <th colspan="6"></th>
-                </tfoot>
-           </table>
-       
+        <table class="table table-hover">
+            <form action="<?php echo U('Goods/add');?>" method="post">
+                <div class="form-group">
+                    <label for='exampleInputEmail'>商品名称</label>
+                    <input name='title' type='text' class="form-control" id='exampleInputEmail1' placeholder='' value=''>
+                </div>
+                <div class="form-group">
+                    <label for='exampleInputEmail'>商品价格</label>
+                    <input name='price' type='text' class="form-control" id='exampleInputEmail1' placeholder='' value=''>
+                </div>
+                <button type='submit' class='btn btn-default'>新增</button>
+            </form>
+        </table>
+    
             </div>
         </div>
       </div>

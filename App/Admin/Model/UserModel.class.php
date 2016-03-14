@@ -11,10 +11,10 @@ class UserModel extends Model {
         return array("lists"=>$data,"page"=>$show);
     }
     public function addUser($data){
-       $data_arr = array();
+       $info = array();
        
       //if(count($this->where("uname='{$data['uname']}'")->select())>0){
-          return "您添加的会员名称已经存在，请换一个试试";
+         // return "您添加的会员名称已经存在，请换一个试试";
       //}
         // $data['upwd'] = md5($data['upwd']); //加密
 
@@ -25,9 +25,17 @@ class UserModel extends Model {
            $data_arr['last_time'] = time();
            
             if(($this->add($data_arr))>0){
-                 return '恭喜添加会员成功';
+                 //return '恭喜添加会员成功';
+                 $info = array(
+                'status' => 1,
+                'info' => "恭喜添加会员成功",
+            );
             }else{
-                return '添加会员失败';
+                //return '添加会员失败';
+                 $info = array(
+                'status' => 0,
+                'info' => "添加会员失败",
+            );
             }
            
            
